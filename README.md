@@ -91,7 +91,7 @@ inline과 일반함수의 가장 큰 차이는 inline 함수는 스택으로 불
 template<typename T>
 void Print(T a, T b)
 {
-	cout << a << “,” << b << Lendl;
+	cout << a << “,” << b << endl;
 }
 ```
 
