@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CppSTL.dir/Ch3/Adder.cpp.o"
+  "CMakeFiles/CppSTL.dir/Ch4/Template3.cpp.o"
   "CppSTL.pdb"
   "CppSTL"
 )

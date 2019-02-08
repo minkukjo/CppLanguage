@@ -57,27 +57,27 @@ include CMakeFiles/CppSTL.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CppSTL.dir/flags.make
 
-CMakeFiles/CppSTL.dir/Ch3/Adder.cpp.o: CMakeFiles/CppSTL.dir/flags.make
-CMakeFiles/CppSTL.dir/Ch3/Adder.cpp.o: ../Ch3/Adder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/minkuk/CLionProjects/CppSTL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppSTL.dir/Ch3/Adder.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppSTL.dir/Ch3/Adder.cpp.o -c /Users/minkuk/CLionProjects/CppSTL/Ch3/Adder.cpp
+CMakeFiles/CppSTL.dir/Ch4/Template3.cpp.o: CMakeFiles/CppSTL.dir/flags.make
+CMakeFiles/CppSTL.dir/Ch4/Template3.cpp.o: ../Ch4/Template3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/minkuk/CLionProjects/CppSTL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppSTL.dir/Ch4/Template3.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CppSTL.dir/Ch4/Template3.cpp.o -c /Users/minkuk/CLionProjects/CppSTL/Ch4/Template3.cpp
 
-CMakeFiles/CppSTL.dir/Ch3/Adder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppSTL.dir/Ch3/Adder.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/minkuk/CLionProjects/CppSTL/Ch3/Adder.cpp > CMakeFiles/CppSTL.dir/Ch3/Adder.cpp.i
+CMakeFiles/CppSTL.dir/Ch4/Template3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CppSTL.dir/Ch4/Template3.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/minkuk/CLionProjects/CppSTL/Ch4/Template3.cpp > CMakeFiles/CppSTL.dir/Ch4/Template3.cpp.i
 
-CMakeFiles/CppSTL.dir/Ch3/Adder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppSTL.dir/Ch3/Adder.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/minkuk/CLionProjects/CppSTL/Ch3/Adder.cpp -o CMakeFiles/CppSTL.dir/Ch3/Adder.cpp.s
+CMakeFiles/CppSTL.dir/Ch4/Template3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CppSTL.dir/Ch4/Template3.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/minkuk/CLionProjects/CppSTL/Ch4/Template3.cpp -o CMakeFiles/CppSTL.dir/Ch4/Template3.cpp.s
 
 # Object files for target CppSTL
 CppSTL_OBJECTS = \
-"CMakeFiles/CppSTL.dir/Ch3/Adder.cpp.o"
+"CMakeFiles/CppSTL.dir/Ch4/Template3.cpp.o"
 
 # External object files for target CppSTL
 CppSTL_EXTERNAL_OBJECTS =
 
-CppSTL: CMakeFiles/CppSTL.dir/Ch3/Adder.cpp.o
+CppSTL: CMakeFiles/CppSTL.dir/Ch4/Template3.cpp.o
 CppSTL: CMakeFiles/CppSTL.dir/build.make
 CppSTL: CMakeFiles/CppSTL.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/minkuk/CLionProjects/CppSTL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CppSTL"

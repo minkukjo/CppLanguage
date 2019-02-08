@@ -123,32 +123,32 @@ CppSTL/fast:
 	$(MAKE) -f CMakeFiles/CppSTL.dir/build.make CMakeFiles/CppSTL.dir/build
 .PHONY : CppSTL/fast
 
-Ch3/Adder.o: Ch3/Adder.cpp.o
+Ch4/Template3.o: Ch4/Template3.cpp.o
 
-.PHONY : Ch3/Adder.o
+.PHONY : Ch4/Template3.o
 
 # target to build an object file
-Ch3/Adder.cpp.o:
-	$(MAKE) -f CMakeFiles/CppSTL.dir/build.make CMakeFiles/CppSTL.dir/Ch3/Adder.cpp.o
-.PHONY : Ch3/Adder.cpp.o
+Ch4/Template3.cpp.o:
+	$(MAKE) -f CMakeFiles/CppSTL.dir/build.make CMakeFiles/CppSTL.dir/Ch4/Template3.cpp.o
+.PHONY : Ch4/Template3.cpp.o
 
-Ch3/Adder.i: Ch3/Adder.cpp.i
+Ch4/Template3.i: Ch4/Template3.cpp.i
 
-.PHONY : Ch3/Adder.i
+.PHONY : Ch4/Template3.i
 
 # target to preprocess a source file
-Ch3/Adder.cpp.i:
-	$(MAKE) -f CMakeFiles/CppSTL.dir/build.make CMakeFiles/CppSTL.dir/Ch3/Adder.cpp.i
-.PHONY : Ch3/Adder.cpp.i
+Ch4/Template3.cpp.i:
+	$(MAKE) -f CMakeFiles/CppSTL.dir/build.make CMakeFiles/CppSTL.dir/Ch4/Template3.cpp.i
+.PHONY : Ch4/Template3.cpp.i
 
-Ch3/Adder.s: Ch3/Adder.cpp.s
+Ch4/Template3.s: Ch4/Template3.cpp.s
 
-.PHONY : Ch3/Adder.s
+.PHONY : Ch4/Template3.s
 
 # target to generate assembly for a file
-Ch3/Adder.cpp.s:
-	$(MAKE) -f CMakeFiles/CppSTL.dir/build.make CMakeFiles/CppSTL.dir/Ch3/Adder.cpp.s
-.PHONY : Ch3/Adder.cpp.s
+Ch4/Template3.cpp.s:
+	$(MAKE) -f CMakeFiles/CppSTL.dir/build.make CMakeFiles/CppSTL.dir/Ch4/Template3.cpp.s
+.PHONY : Ch4/Template3.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CppSTL"
-	@echo "... Ch3/Adder.o"
-	@echo "... Ch3/Adder.i"
-	@echo "... Ch3/Adder.s"
+	@echo "... Ch4/Template3.o"
+	@echo "... Ch4/Template3.i"
+	@echo "... Ch4/Template3.s"
 .PHONY : help
 
 
