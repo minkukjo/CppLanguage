@@ -136,7 +136,7 @@ class Array<string>
 }
 
 Array<string>은 Array 클래스를 특수화 한 것.
-template의 타입 안에 tyname이 빠진 것을 볼 수 있다.
+template의 타입 안에 typename이 빠진 것을 볼 수 있다.
 string타입의 Array 클래스를 선언할 시 특수화된 템플릿의 클래스로 만들어 진다.
 ```
 
