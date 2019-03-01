@@ -168,3 +168,42 @@ string타입의 Array 클래스를 선언할 시 특수화된 템플릿의 클�
 <u> 결론 : 함수 템플릿을 특수화 하느니 일반함수를 만들어 써라. 그게 속 편하다. <u>
 	
 함수 템플릿을 특수화하지 말아야 하는 이유 출처 : <https://wikidocs.net/652>
+
+### 컨테이너 어댑터란?
+
+
+다른 컨테이너의 인터페이스를 변경한 컨테이다.
+
+STL에서는 stack,queue,priority_queue 세 가지 컨테인 어댑터가 존재한다.
+
+stack은 LIFO(Last-In First-Out)
+
+queue는 FIFO(First-In First-Out)
+
+priority_queue는 원소를 우선순위에 따라 관리하는 큐.
+
+priority_queue의 기본 정렬 기준은 less.
+
+
+
+- Stack
+
+Stack은 내부적으로 vector, list,deque를 이용해 구현 가능.
+
+- Queue
+
+Queue는 front기능을 수행해야 하므로, deque로만 구현 가능. 
+
+왜냐하면 pop_front()를 해야하기 때문에 vector를 못씀.
+
+- Priority Queue
+
+Priority_queue는 vector를 사용하고 있고, deque로도 구현 가능. 
+
+Priority_queue에서는 내부적으로 정렬을 수행하기때문에 항상 pop_back()을 수행하므로, 
+
+pop_fornt()기능을 제공하지않는 vector도 사용 가능.
+
+
+
+### String
